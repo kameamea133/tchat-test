@@ -1,0 +1,17 @@
+# Ignore .env files
+frontend/.env
+backend/.env
+
+# Exclude node_modules folders
+node_modules/
+
+# Exclude log files and builds
+logs/
+*.log
+dist/
+build/
+
+# Exclude IDE-specific files
+.vscode/
+.DS_Store
+Thumbs.db
